@@ -21,7 +21,7 @@
 
   <link rel="stylesheet" href="../assets/css/donate-book.css">
 
-  <link rel="icon" href=../assets/Favicons/8.png> <title>Donate Books</title>
+  <link rel="icon" href=../assets/Favicons/8.png> <title>Get A Book</title>
   <style>
    
   table {
@@ -58,8 +58,10 @@ tr:nth-child(even) {background-color: #f2f2f2;}
               class="sr-only">(current)</span></a>
                  </li>
                 <li class="nav-item"><a href="../about.html" class="nav-link"> <i class="fas fa-book"></i> About </a></li>
-        <li class="nav-item active"><a href="#" class="nav-link" onclick="return false;"> <i
+        <li class="nav-item active"><a href="./donate-book.html" class="nav-link" onclick=";"> <i
               class="fas fa-book"></i> Donate Books </a></li>
+        <li class="nav-item active"><a href="#" class="nav-link" onclick="return false;"> <i
+              class="fas fa-book"></i> Get a Book </a></li>
         <li class="nav-item"><a href=".././resource.html" class="nav-link"> <i class="fas fa-external-link-alt"></i>
             Resources</a></li>
         <li class="nav-item"><a href="../Login_page/login_page.html" class="nav-link"> <i
@@ -83,6 +85,10 @@ tr:nth-child(even) {background-color: #f2f2f2;}
           <input class="form__input form-control" type="tel" id="contact" name="" required="" >
           <!--onchange="validate_phone(document.getElementById('contact'))"-->
           <label>Contact Number</label>
+        </div>
+        <div class="user-box">
+          <input class="form__input form-control"  id="book_name" name="book_name" required="" >
+          <label>Book Name</label>
         </div>
         <div class="user-box">
           <input class="form__input form-control" id="zip" type="text" name="" required="">
